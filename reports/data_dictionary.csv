@@ -1,0 +1,13 @@
+Variable,Data_Type,Missing_Values,Unique_Values,Description,Role
+IDpol,float64,0,678013,Unique policy identifier,Identifier
+ClaimNb,int64,0,11,Number of claims,Target
+Exposure,float64,0,106,Policy exposure period,Numeric feature
+Area,str,0,6,Area code,Categorical feature
+VehPower,int64,0,12,Vehicle power,Numeric feature
+VehAge,int64,0,78,Vehicle age,Numeric feature
+DrivAge,int64,0,83,Driver age,Numeric feature
+BonusMalus,int64,0,57,Bonus-malus rating,Numeric feature
+VehBrand,str,0,11,Vehicle brand category,Categorical feature
+VehGas,str,0,2,Vehicle fuel type,Categorical feature
+Density,int64,0,1607,Population density,Numeric feature
+Region,str,0,22,Region code,Categorical feature
