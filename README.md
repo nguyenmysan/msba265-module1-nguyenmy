@@ -6,10 +6,9 @@
 **Student:** Nguyen My San  
 **Course:** MSBA 265 - Business Analytics Topics  
 **Term:** Fall 2026  
-**Dataset:** French Motor Claims dataset (freMTPL2freq.csv) from OpenML
+**Dataset:** French Motor Claims dataset (`freMTPL2freq.csv`) from OpenML
 
-
-This repository contains the Module 1 homework project for MSBA 265. The project downloads the French Motor Third-Party Liability dataset, performs exploratory data analysis, documents the variables, removes Density outliers using Tukey's 1.5 × IQR rule, and generates the required figures and cleaned dataset.
+This repository contains the Module 1 homework project for MSBA 265. The project downloads the French Motor Claims dataset (`freMTPL2freq.csv`) from OpenML, performs exploratory data analysis, documents the variables, removes Density outliers using Tukey's 1.5 × IQR rule, and generates the required figures and cleaned dataset.
 
 ## Repository Structure
 
@@ -28,8 +27,9 @@ This repository contains the Module 1 homework project for MSBA 265. The project
 Clone the repository and enter the project directory:
 
 ```bash
-git clone <REPOSITORY-URL>
-cd msba265-module1-nguyenmy ```
+git clone https://github.com/nguyenmysan/msba265-module1-nguyenmy.git
+cd msba265-module1-nguyenmy
+```
 
 Create and activate a virtual environment:
 
