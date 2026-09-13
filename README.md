@@ -1,4 +1,13 @@
-# MSBA 265 - Module 1 Homework
+# MSBA 265 - Foundational Module 1: Practical Homework Assignment
+
+## Interactive EDA, Data Quality Verification, Data Dictionaries, & Outlier Pipelines
+
+**Instructor:** Visiting Instructor Shyla Solis  
+**Student:** Nguyen My San  
+**Course:** MSBA 265 - Business Analytics Topics  
+**Term:** Fall 2026  
+**Dataset:** French Motor Claims dataset (freMTPL2freq.csv) from OpenML
+
 
 This repository contains the Module 1 homework project for MSBA 265. The project downloads the French Motor Third-Party Liability dataset, performs exploratory data analysis, documents the variables, removes Density outliers using Tukey's 1.5 × IQR rule, and generates the required figures and cleaned dataset.
 
