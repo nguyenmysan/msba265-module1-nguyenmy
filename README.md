@@ -62,5 +62,65 @@ pip install -r requirements.txt
 Create a virtual environment:
 
 ```bash
-python3 -m v
+python3 -m venv venv
 ```
+
+Activate the virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Execution Instructions
+
+### 1. Download the Dataset
+
+```bash
+python data/download_data.py
+```
+
+This creates:
+
+`data/raw_business_data.csv`
+
+### 2. Run the Exploratory Data Analysis
+
+Open:
+
+`notebooks/01_eda_and_data_dictionary.ipynb`
+
+Select the project virtual environment as the Jupyter kernel and run all cells from top to bottom.
+
+The notebook generates:
+
+* `reports/data_dictionary.csv`
+* `reports/figures/feature_distributions.png`
+* `reports/figures/correlation_heatmap.png`
+
+### 3. Remove Density Outliers
+
+Run:
+
+```bash
+python src/clean_outliers.py
+```
+
+This script applies Tukey's 1.5 × IQR rule to `Density` and creates:
+
+`data/cleaned_business_data.csv`
+
+### 4. Review the Final Report
+
+The final compiled assignment is:
+
+`Module1_Homework_Report.pdf`
+
+## Requirements
+
+See `requirements.txt` for the Python dependencies required to reproduce this project.
